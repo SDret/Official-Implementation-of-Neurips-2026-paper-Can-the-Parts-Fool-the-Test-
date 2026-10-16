@@ -187,17 +187,7 @@ Each script prints its results and writes them to the file given by `--log`.
   - pair-trained models use validation AUROC.
 - **Image availability:** COCO / Visual Genome images are fetched from their public servers. Images that are unavailable are dropped, so the image pools depend on what the servers return.
 
-## Citation
-
-```bibtex
-@inproceedings{counterfactual_pairing_cycles,
-  title     = {Can the Parts Fool the Test? Counterfactual Pairing Cycles for Relational OOD},
-  author    = {Anonymous},
-  booktitle = {Advances in Neural Information Processing Systems},
-  year      = {2025}
-}
-```
 
 ## License
 
-This code is released under the MIT License. COCO, GQA, Visual Genome and CLIP are subject to their own licenses and terms of use.
+COCO, GQA, Visual Genome and CLIP are subject to their own licenses and terms of use.
